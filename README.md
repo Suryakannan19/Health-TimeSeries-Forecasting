@@ -23,10 +23,6 @@ health-timeseries-forecasting/
 │   └── predictions.csv         # Test-set predictions per model
 └── requirements.txt
 
-```
-
-
-```
 
 
 
