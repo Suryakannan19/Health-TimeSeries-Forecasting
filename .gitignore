@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Data (raw CSVs can be large; use generate_data.py instead)
+data/raw/*.csv
+
+# Model checkpoints
+*.pt
+*.pth
+*.pkl
+*.json.bak
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results are committed so reviewers can see them
+# results/
